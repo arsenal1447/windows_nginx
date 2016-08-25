@@ -1,0 +1,422 @@
+2016/08/24 20:51:38 [error] 3296#4732: *1 directory index of "E:/work/" is forbidden, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "127.0.0.1:82"
+2016/08/24 20:51:38 [error] 3296#4732: *1 CreateFile() "E:/work/favicon.ico" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "127.0.0.1:82", referrer: "http://127.0.0.1:82/"
+2016/08/24 20:53:42 [emerg] 728#8916: unknown log format "main" in E:\Program Files\nginx/conf/nginx.conf:41
+2016/08/24 20:53:49 [error] 3296#4732: *3 directory index of "E:/work/" is forbidden, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "127.0.0.1:82"
+2016/08/24 20:53:57 [error] 3296#4732: *3 FastCGI sent in stderr: "PHP Warning:  phpinfo(): It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected the timezone 'UTC' for now, but please set date.timezone to select your timezone. in E:\work\phpinfo.php on line 3" while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET /phpinfo.php HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "127.0.0.1:82"
+2016/08/24 20:55:11 [emerg] 8172#3780: unknown log format "main" in E:\Program Files\nginx/conf/nginx.conf:41
+2016/08/24 21:01:26 [emerg] 9088#7780: unknown log format "main" in E:\Program Files\nginx/conf/nginx.conf:41
+2016/08/24 21:01:42 [notice] 3936#9004: signal process started
+2016/08/24 21:01:48 [notice] 8264#4756: signal process started
+2016/08/24 21:01:48 [error] 8264#4756: CreateFile() "E:\Program Files\nginx/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2016/08/24 21:02:21 [error] 8136#8864: *1 FastCGI sent in stderr: "PHP Warning:  phpinfo(): It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected the timezone 'UTC' for now, but please set date.timezone to select your timezone. in E:\work\phpinfo.php on line 3" while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET /phpinfo.php HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "127.0.0.1:82"
+2016/08/24 21:05:58 [emerg] 4756#3280: invalid number of arguments in "include" directive in E:\Program Files\nginx/conf/nginx.conf:119
+2016/08/24 21:06:03 [emerg] 6664#5612: invalid number of arguments in "include" directive in E:\Program Files\nginx/conf/nginx.conf:119
+2016/08/24 21:11:05 [error] 8136#8864: *5 FastCGI sent in stderr: "PHP Warning:  phpinfo(): It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected the timezone 'UTC' for now, but please set date.timezone to select your timezone. in E:\work\phpinfo.php on line 3" while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET /phpinfo.php HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "127.0.0.1:82"
+2016/08/24 21:11:29 [error] 8136#8864: *5 CreateFile() "E:/work/favicon.ico" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "127.0.0.1:82"
+2016/08/24 21:12:36 [error] 8136#8864: *7 directory index of "E:/work/" is forbidden, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "127.0.0.1:82"
+2016/08/24 21:12:42 [error] 8136#8864: *7 FastCGI sent in stderr: "PHP Warning:  phpinfo(): It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected the timezone 'UTC' for now, but please set date.timezone to select your timezone. in E:\work\phpinfo.php on line 3" while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET /phpinfo.php HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "127.0.0.1:82"
+2016/08/24 21:14:55 [notice] 8472#1208: signal process started
+2016/08/24 21:15:00 [error] 5652#6768: *9 FastCGI sent in stderr: "PHP Warning:  phpinfo(): It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected the timezone 'UTC' for now, but please set date.timezone to select your timezone. in E:\work\phpinfo.php on line 3" while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET /phpinfo.php HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "127.0.0.1:82"
+2016/08/24 21:15:28 [notice] 5260#8780: signal process started
+2016/08/24 21:35:48 [alert] 8388#7460: the event "ngx_master_8388" was not signaled for 5s
+2016/08/24 21:35:48 [alert] 8388#7460: could not respawn worker
+2016/08/24 21:49:52 [error] 4092#5576: *1 directory index of "E:/work/" is forbidden, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "127.0.0.1:82"
+2016/08/24 21:49:52 [error] 4092#5576: *1 CreateFile() "E:/work/favicon.ico" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "127.0.0.1:82", referrer: "http://127.0.0.1:82/"
+2016/08/24 21:50:56 [error] 4092#5576: *1 upstream timed out (10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /phpinfo.php HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "127.0.0.1:82"
+2016/08/24 21:52:45 [notice] 1124#4832: signal process started
+2016/08/24 21:53:48 [error] 4092#5576: *10 upstream timed out (10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "127.0.0.1:82"
+2016/08/24 21:56:50 [error] 4092#5576: *14 FastCGI sent in stderr: "PHP Warning:  phpinfo(): It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected the timezone 'UTC' for now, but please set date.timezone to select your timezone. in E:\work\index.php on line 3" while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "127.0.0.1:82"
+2016/08/24 21:56:56 [error] 4092#5576: *14 FastCGI sent in stderr: "PHP Warning:  phpinfo(): It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected the timezone 'UTC' for now, but please set date.timezone to select your timezone. in E:\work\phpinfo.php on line 3" while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET /phpinfo.php HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "127.0.0.1:82"
+2016/08/24 22:00:44 [notice] 4712#6668: signal process started
+2016/08/24 22:00:49 [notice] 6860#6384: signal process started
+2016/08/24 22:00:54 [error] 4092#5576: *17 CreateFile() "E:/work/favicon.ico" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "127.0.0.1:82"
+2016/08/24 22:05:39 [notice] 6312#6968: signal process started
+2016/08/24 22:06:08 [notice] 7596#6240: signal process started
+2016/08/24 22:08:26 [notice] 5688#3232: signal process started
+2016/08/24 22:09:43 [notice] 7112#5456: signal process started
+2016/08/24 22:09:48 [notice] 6568#5516: signal process started
+2016/08/24 22:11:45 [notice] 4648#7728: signal process started
+2016/08/24 22:13:02 [notice] 7840#8172: signal process started
+2016/08/24 22:13:27 [notice] 6756#6908: signal process started
+2016/08/24 22:15:07 [error] 4092#5576: *30 FastCGI sent in stderr: "PHP Warning:  phpinfo(): It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected the timezone 'UTC' for now, but please set date.timezone to select your timezone. in E:\work\index.php on line 3" while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost:82"
+2016/08/24 22:15:19 [error] 4092#5576: *34 FastCGI sent in stderr: "PHP Warning:  phpinfo(): It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected the timezone 'UTC' for now, but please set date.timezone to select your timezone. in E:\work\phpinfo.php on line 3" while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET /phpinfo.php HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "127.0.0.1:82"
+2016/08/24 22:20:20 [emerg] 188#3788: CreateFile() "e:/work/nginx_logs/reg/access.log" failed (3: The system cannot find the path specified)
+2016/08/24 22:20:44 [emerg] 5712#4768: CreateFile() "e:/work/nginx_logs/reg/access.log" failed (3: The system cannot find the path specified)
+2016/08/24 22:21:12 [notice] 7496#8100: signal process started
+2016/08/24 22:23:45 [notice] 7312#8112: signal process started
+2016/08/24 22:24:19 [notice] 3808#1748: signal process started
+2016/08/24 22:26:43 [notice] 5656#6616: signal process started
+2016/08/24 22:28:34 [notice] 2700#4172: signal process started
+2016/08/24 22:30:58 [notice] 4752#7820: signal process started
+2016/08/24 22:32:22 [error] 4092#5576: *37 FastCGI sent in stderr: "PHP Warning:  phpinfo(): It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected the timezone 'UTC' for now, but please set date.timezone to select your timezone. in E:\work\index.php on line 3" while reading response header from upstream, client: 192.168.31.243, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "192.168.31.155:82"
+2016/08/24 22:34:25 [notice] 3104#2700: signal process started
+2016/08/24 22:36:53 [notice] 7952#8112: signal process started
+2016/08/24 22:37:38 [notice] 6408#4704: signal process started
+2016/08/24 22:39:05 [notice] 2256#7648: signal process started
+2016/08/24 22:41:33 [notice] 4192#2252: signal process started
+2016/08/24 22:42:42 [notice] 2636#1708: signal process started
+2016/08/24 22:42:46 [notice] 6064#2108: signal process started
+2016/08/24 22:43:28 [notice] 7540#8080: signal process started
+2016/08/24 22:45:18 [notice] 4444#4736: signal process started
+2016/08/24 22:51:58 [notice] 6324#3916: signal process started
+2016/08/24 22:54:12 [notice] 3216#6260: signal process started
+2016/08/24 22:56:21 [notice] 6312#2220: signal process started
+2016/08/24 22:56:28 [notice] 7960#7252: signal process started
+2016/08/24 22:57:29 [alert] 1104#4464: the event "ngx_master_1104" was not signaled for 5s
+2016/08/24 22:57:29 [alert] 1104#4464: could not respawn worker
+2016/08/25 19:43:30 [error] 1512#2980: *5 upstream timed out (10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "127.0.0.1:82"
+2016/08/25 19:46:43 [error] 1512#2980: *8 upstream timed out (10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "127.0.0.1:82"
+2016/08/25 19:49:13 [error] 1512#2980: *11 upstream timed out (10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "127.0.0.1:82"
+2016/08/25 19:52:30 [notice] 3896#5984: signal process started
+2016/08/25 20:16:53 [error] 6308#3664: *14 upstream timed out (10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "127.0.0.1:82"
+2016/08/25 20:36:20 [notice] 6592#5056: signal process started
+2016/08/25 20:36:26 [notice] 6724#6520: signal process started
+2016/08/25 20:37:34 [error] 6604#6692: *17 upstream timed out (10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "127.0.0.1:82"
+2016/08/25 20:39:48 [error] 6604#6692: *20 upstream timed out (10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "127.0.0.1:82"
+2016/08/25 20:47:41 [notice] 2596#5144: signal process started
+2016/08/25 20:47:46 [notice] 6764#4888: signal process started
+2016/08/25 20:47:56 [notice] 5004#6964: signal process started
+2016/08/25 20:48:52 [notice] 6700#5876: signal process started
+2016/08/25 20:48:52 [notice] 3160#3176: using the "select" event method
+2016/08/25 20:48:52 [notice] 3160#3176: using the "select" event method
+2016/08/25 20:48:52 [notice] 3160#3176: start worker processes
+2016/08/25 20:48:52 [notice] 3160#3176: start worker processes
+2016/08/25 20:48:52 [notice] 3160#3176: start worker process 7148
+2016/08/25 20:48:52 [notice] 3160#3176: start worker process 7148
+2016/08/25 20:48:52 [notice] 7148#3920: nginx/1.11.3
+2016/08/25 20:48:52 [notice] 7148#3920: nginx/1.11.3
+2016/08/25 20:48:52 [info] 7148#3920: OS: 260110 build:7601, "Service Pack 1", suite:100, type:1
+2016/08/25 20:48:52 [notice] 7148#3920: create thread 5608
+2016/08/25 20:48:52 [notice] 7148#3920: create thread 5608
+2016/08/25 20:48:52 [notice] 7148#3920: create thread 3912
+2016/08/25 20:48:52 [notice] 7148#3920: create thread 3912
+2016/08/25 20:48:52 [notice] 7148#3920: create thread 2548
+2016/08/25 20:48:52 [notice] 7148#3920: create thread 2548
+2016/08/25 20:48:52 [notice] 3160#3176: worker process 6332 exited with code 0
+2016/08/25 20:48:52 [notice] 3160#3176: worker process 6332 exited with code 0
+2016/08/25 20:52:38 [notice] 5992#2432: signal process started
+2016/08/25 20:52:38 [notice] 3160#3176: reconfiguring
+2016/08/25 20:52:38 [notice] 3160#3176: reconfiguring
+2016/08/25 20:52:38 [notice] 3160#3176: using the "select" event method
+2016/08/25 20:52:38 [notice] 3160#3176: using the "select" event method
+2016/08/25 20:52:38 [notice] 3160#3176: start worker processes
+2016/08/25 20:52:38 [notice] 3160#3176: start worker processes
+2016/08/25 20:52:38 [notice] 3160#3176: start worker process 6604
+2016/08/25 20:52:38 [notice] 3160#3176: start worker process 6604
+2016/08/25 20:52:38 [notice] 6604#6588: nginx/1.11.3
+2016/08/25 20:52:38 [notice] 6604#6588: nginx/1.11.3
+2016/08/25 20:52:38 [info] 6604#6588: OS: 260110 build:7601, "Service Pack 1", suite:100, type:1
+2016/08/25 20:52:38 [notice] 7148#3920: gracefully shutting down
+2016/08/25 20:52:38 [notice] 7148#3920: gracefully shutting down
+2016/08/25 20:52:38 [notice] 6604#6588: create thread 7108
+2016/08/25 20:52:38 [notice] 7148#3912: exiting
+2016/08/25 20:52:38 [notice] 6604#6588: create thread 7108
+2016/08/25 20:52:38 [notice] 7148#3912: exiting
+2016/08/25 20:52:38 [notice] 6604#6588: create thread 4380
+2016/08/25 20:52:38 [notice] 6604#6588: create thread 4380
+2016/08/25 20:52:38 [notice] 6604#6588: create thread 5420
+2016/08/25 20:52:38 [notice] 6604#6588: create thread 5420
+2016/08/25 20:52:38 [notice] 7148#5608: exiting
+2016/08/25 20:52:38 [notice] 7148#5608: exiting
+2016/08/25 20:52:38 [notice] 7148#3920: exit
+2016/08/25 20:52:38 [notice] 7148#3920: exit
+2016/08/25 20:52:38 [notice] 3160#3176: worker process 7148 exited with code 0
+2016/08/25 20:52:38 [notice] 3160#3176: worker process 7148 exited with code 0
+2016/08/25 20:52:41 [notice] 6068#5884: signal process started
+2016/08/25 20:52:41 [notice] 3160#3176: reconfiguring
+2016/08/25 20:52:41 [notice] 3160#3176: reconfiguring
+2016/08/25 20:52:41 [notice] 3160#3176: using the "select" event method
+2016/08/25 20:52:41 [notice] 3160#3176: using the "select" event method
+2016/08/25 20:52:41 [notice] 3160#3176: start worker processes
+2016/08/25 20:52:41 [notice] 3160#3176: start worker processes
+2016/08/25 20:52:41 [notice] 3160#3176: start worker process 3380
+2016/08/25 20:52:41 [notice] 3160#3176: start worker process 3380
+2016/08/25 20:52:41 [notice] 3380#6328: nginx/1.11.3
+2016/08/25 20:52:41 [notice] 3380#6328: nginx/1.11.3
+2016/08/25 20:52:41 [info] 3380#6328: OS: 260110 build:7601, "Service Pack 1", suite:100, type:1
+2016/08/25 20:52:41 [notice] 6604#6588: gracefully shutting down
+2016/08/25 20:52:41 [notice] 6604#6588: gracefully shutting down
+2016/08/25 20:52:41 [notice] 3380#6328: create thread 2568
+2016/08/25 20:52:41 [notice] 3380#6328: create thread 2568
+2016/08/25 20:52:41 [notice] 6604#4380: exiting
+2016/08/25 20:52:41 [notice] 6604#4380: exiting
+2016/08/25 20:52:41 [notice] 3380#6328: create thread 5876
+2016/08/25 20:52:41 [notice] 3380#6328: create thread 5876
+2016/08/25 20:52:41 [notice] 3380#6328: create thread 1492
+2016/08/25 20:52:41 [notice] 3380#6328: create thread 1492
+2016/08/25 20:52:41 [notice] 6604#7108: exiting
+2016/08/25 20:52:41 [notice] 6604#7108: exiting
+2016/08/25 20:52:41 [notice] 6604#6588: exit
+2016/08/25 20:52:41 [notice] 6604#6588: exit
+2016/08/25 20:52:41 [notice] 3160#3176: worker process 6604 exited with code 0
+2016/08/25 20:52:41 [notice] 3160#3176: worker process 6604 exited with code 0
+2016/08/25 20:53:22 [info] 3380#2568: *24 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:1234
+2016/08/25 20:54:10 [notice] 6564#5884: signal process started
+2016/08/25 20:54:10 [notice] 3160#3176: reconfiguring
+2016/08/25 20:54:10 [notice] 3160#3176: reconfiguring
+2016/08/25 20:54:10 [notice] 3160#3176: using the "select" event method
+2016/08/25 20:54:10 [notice] 3160#3176: using the "select" event method
+2016/08/25 20:54:10 [notice] 3160#3176: start worker processes
+2016/08/25 20:54:10 [notice] 3160#3176: start worker processes
+2016/08/25 20:54:10 [notice] 3160#3176: start worker process 1096
+2016/08/25 20:54:10 [notice] 3160#3176: start worker process 1096
+2016/08/25 20:54:10 [notice] 1096#4380: nginx/1.11.3
+2016/08/25 20:54:10 [notice] 1096#4380: nginx/1.11.3
+2016/08/25 20:54:10 [info] 1096#4380: OS: 260110 build:7601, "Service Pack 1", suite:100, type:1
+2016/08/25 20:54:10 [notice] 3380#6328: gracefully shutting down
+2016/08/25 20:54:10 [notice] 3380#6328: gracefully shutting down
+2016/08/25 20:54:10 [notice] 3380#5876: exiting
+2016/08/25 20:54:10 [notice] 3380#5876: exiting
+2016/08/25 20:54:10 [notice] 1096#4380: create thread 6152
+2016/08/25 20:54:10 [notice] 1096#4380: create thread 6152
+2016/08/25 20:54:10 [notice] 1096#4380: create thread 6604
+2016/08/25 20:54:10 [notice] 1096#4380: create thread 6604
+2016/08/25 20:54:10 [notice] 1096#4380: create thread 7140
+2016/08/25 20:54:10 [notice] 1096#4380: create thread 7140
+2016/08/25 20:54:10 [notice] 3380#2568: exiting
+2016/08/25 20:54:10 [notice] 3380#2568: exiting
+2016/08/25 20:54:10 [notice] 3380#6328: exit
+2016/08/25 20:54:10 [notice] 3380#6328: exit
+2016/08/25 20:54:10 [notice] 3160#3176: worker process 3380 exited with code 0
+2016/08/25 20:54:10 [notice] 3160#3176: worker process 3380 exited with code 0
+2016/08/25 20:54:42 [info] 1096#6152: *25 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:1234
+2016/08/25 20:54:42 [info] 1096#6152: *26 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:1234
+2016/08/25 20:55:20 [notice] 5592#5532: signal process started
+2016/08/25 20:55:20 [notice] 3160#3176: reconfiguring
+2016/08/25 20:55:20 [notice] 3160#3176: reconfiguring
+2016/08/25 20:55:20 [notice] 3160#3176: using the "select" event method
+2016/08/25 20:55:20 [notice] 3160#3176: using the "select" event method
+2016/08/25 20:55:20 [notice] 3160#3176: start worker processes
+2016/08/25 20:55:20 [notice] 3160#3176: start worker processes
+2016/08/25 20:55:20 [notice] 3160#3176: start worker process 7128
+2016/08/25 20:55:20 [notice] 3160#3176: start worker process 7128
+2016/08/25 20:55:20 [notice] 7128#3400: nginx/1.11.3
+2016/08/25 20:55:20 [notice] 7128#3400: nginx/1.11.3
+2016/08/25 20:55:20 [info] 7128#3400: OS: 260110 build:7601, "Service Pack 1", suite:100, type:1
+2016/08/25 20:55:20 [notice] 7128#3400: create thread 7152
+2016/08/25 20:55:20 [notice] 1096#4380: gracefully shutting down
+2016/08/25 20:55:20 [notice] 7128#3400: create thread 7152
+2016/08/25 20:55:20 [notice] 1096#4380: gracefully shutting down
+2016/08/25 20:55:20 [notice] 1096#6604: exiting
+2016/08/25 20:55:20 [notice] 1096#6604: exiting
+2016/08/25 20:55:20 [notice] 7128#3400: create thread 2728
+2016/08/25 20:55:20 [notice] 7128#3400: create thread 2728
+2016/08/25 20:55:20 [notice] 7128#3400: create thread 3504
+2016/08/25 20:55:20 [notice] 7128#3400: create thread 3504
+2016/08/25 20:55:20 [notice] 1096#6152: exiting
+2016/08/25 20:55:20 [notice] 1096#6152: exiting
+2016/08/25 20:55:20 [notice] 1096#4380: exit
+2016/08/25 20:55:20 [notice] 1096#4380: exit
+2016/08/25 20:55:20 [notice] 3160#3176: worker process 1096 exited with code 0
+2016/08/25 20:55:20 [notice] 3160#3176: worker process 1096 exited with code 0
+2016/08/25 20:55:42 [info] 7128#7152: *28 client closed connection while waiting for request, client: 192.168.31.155, server: 0.0.0.0:1234
+2016/08/25 20:56:40 [notice] 6580#7060: signal process started
+2016/08/25 20:56:40 [notice] 3160#3176: reconfiguring
+2016/08/25 20:56:40 [notice] 3160#3176: reconfiguring
+2016/08/25 20:56:40 [notice] 3160#3176: using the "select" event method
+2016/08/25 20:56:40 [notice] 3160#3176: using the "select" event method
+2016/08/25 20:56:40 [notice] 3160#3176: start worker processes
+2016/08/25 20:56:40 [notice] 3160#3176: start worker processes
+2016/08/25 20:56:40 [notice] 3160#3176: start worker process 6152
+2016/08/25 20:56:40 [notice] 3160#3176: start worker process 6152
+2016/08/25 20:56:40 [notice] 6152#6604: nginx/1.11.3
+2016/08/25 20:56:40 [notice] 6152#6604: nginx/1.11.3
+2016/08/25 20:56:40 [info] 6152#6604: OS: 260110 build:7601, "Service Pack 1", suite:100, type:1
+2016/08/25 20:56:40 [notice] 7128#3400: gracefully shutting down
+2016/08/25 20:56:40 [notice] 7128#3400: gracefully shutting down
+2016/08/25 20:56:40 [notice] 7128#2728: exiting
+2016/08/25 20:56:40 [notice] 7128#2728: exiting
+2016/08/25 20:56:40 [notice] 6152#6604: create thread 7156
+2016/08/25 20:56:40 [notice] 6152#6604: create thread 7156
+2016/08/25 20:56:40 [notice] 6152#6604: create thread 3936
+2016/08/25 20:56:40 [notice] 6152#6604: create thread 3936
+2016/08/25 20:56:40 [notice] 6152#6604: create thread 3912
+2016/08/25 20:56:40 [notice] 6152#6604: create thread 3912
+2016/08/25 20:56:40 [notice] 7128#7152: exiting
+2016/08/25 20:56:40 [notice] 7128#7152: exiting
+2016/08/25 20:56:40 [notice] 7128#3400: exit
+2016/08/25 20:56:40 [notice] 7128#3400: exit
+2016/08/25 20:56:40 [notice] 3160#3176: worker process 7128 exited with code 0
+2016/08/25 20:56:40 [notice] 3160#3176: worker process 7128 exited with code 0
+2016/08/25 20:57:02 [info] 6152#7156: *29 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:1234
+2016/08/25 20:57:02 [info] 6152#7156: *30 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:1234
+2016/08/25 20:58:01 [emerg] 6380#7152: no port in upstream "192.168.31.155" in E:\Program Files\nginx/conf/nginx.conf:69
+2016/08/25 20:58:13 [emerg] 4444#6140: no port in upstream "192.168.31.155" in E:\Program Files\nginx/conf/nginx.conf:69
+2016/08/25 20:59:05 [notice] 7252#7256: signal process started
+2016/08/25 20:59:05 [notice] 3160#3176: reconfiguring
+2016/08/25 20:59:05 [notice] 3160#3176: reconfiguring
+2016/08/25 20:59:05 [notice] 3160#3176: using the "select" event method
+2016/08/25 20:59:05 [notice] 3160#3176: using the "select" event method
+2016/08/25 20:59:05 [notice] 3160#3176: start worker processes
+2016/08/25 20:59:05 [notice] 3160#3176: start worker processes
+2016/08/25 20:59:05 [notice] 3160#3176: start worker process 7264
+2016/08/25 20:59:05 [notice] 3160#3176: start worker process 7264
+2016/08/25 20:59:05 [notice] 7264#7268: nginx/1.11.3
+2016/08/25 20:59:05 [notice] 7264#7268: nginx/1.11.3
+2016/08/25 20:59:05 [info] 7264#7268: OS: 260110 build:7601, "Service Pack 1", suite:100, type:1
+2016/08/25 20:59:05 [notice] 6152#6604: gracefully shutting down
+2016/08/25 20:59:05 [notice] 6152#6604: gracefully shutting down
+2016/08/25 20:59:05 [notice] 6152#3936: exiting
+2016/08/25 20:59:05 [notice] 6152#3936: exiting
+2016/08/25 20:59:05 [notice] 7264#7268: create thread 7288
+2016/08/25 20:59:05 [notice] 7264#7268: create thread 7288
+2016/08/25 20:59:05 [notice] 7264#7268: create thread 7292
+2016/08/25 20:59:05 [notice] 7264#7268: create thread 7292
+2016/08/25 20:59:05 [notice] 7264#7268: create thread 7296
+2016/08/25 20:59:05 [notice] 7264#7268: create thread 7296
+2016/08/25 20:59:06 [notice] 6152#7156: exiting
+2016/08/25 20:59:06 [notice] 6152#7156: exiting
+2016/08/25 20:59:06 [notice] 6152#6604: exit
+2016/08/25 20:59:06 [notice] 6152#6604: exit
+2016/08/25 20:59:06 [notice] 3160#3176: worker process 6152 exited with code 0
+2016/08/25 20:59:06 [notice] 3160#3176: worker process 6152 exited with code 0
+2016/08/25 20:59:32 [info] 7264#7288: *31 client closed connection while waiting for request, client: 192.168.31.155, server: 0.0.0.0:1234
+2016/08/25 20:59:32 [info] 7264#7288: *32 client closed connection while waiting for request, client: 192.168.31.155, server: 0.0.0.0:1234
+2016/08/25 21:01:57 [notice] 4596#3372: signal process started
+2016/08/25 21:01:57 [notice] 3160#3176: reconfiguring
+2016/08/25 21:01:57 [notice] 3160#3176: reconfiguring
+2016/08/25 21:01:57 [notice] 3160#3176: using the "select" event method
+2016/08/25 21:01:57 [notice] 3160#3176: using the "select" event method
+2016/08/25 21:01:57 [notice] 3160#3176: start worker processes
+2016/08/25 21:01:57 [notice] 3160#3176: start worker processes
+2016/08/25 21:01:57 [notice] 3160#3176: start worker process 3504
+2016/08/25 21:01:57 [notice] 3160#3176: start worker process 3504
+2016/08/25 21:01:57 [notice] 3504#4444: nginx/1.11.3
+2016/08/25 21:01:57 [notice] 3504#4444: nginx/1.11.3
+2016/08/25 21:01:57 [info] 3504#4444: OS: 260110 build:7601, "Service Pack 1", suite:100, type:1
+2016/08/25 21:01:57 [notice] 7264#7268: gracefully shutting down
+2016/08/25 21:01:57 [notice] 7264#7268: gracefully shutting down
+2016/08/25 21:01:57 [notice] 7264#7292: exiting
+2016/08/25 21:01:57 [notice] 7264#7292: exiting
+2016/08/25 21:01:57 [notice] 3504#4444: create thread 2728
+2016/08/25 21:01:57 [notice] 3504#4444: create thread 2728
+2016/08/25 21:01:57 [notice] 3504#4444: create thread 5840
+2016/08/25 21:01:57 [notice] 3504#4444: create thread 5840
+2016/08/25 21:01:57 [notice] 3504#4444: create thread 6504
+2016/08/25 21:01:57 [notice] 3504#4444: create thread 6504
+2016/08/25 21:01:57 [notice] 7264#7288: exiting
+2016/08/25 21:01:57 [notice] 7264#7288: exiting
+2016/08/25 21:01:57 [notice] 7264#7268: exit
+2016/08/25 21:01:57 [notice] 7264#7268: exit
+2016/08/25 21:01:57 [notice] 3160#3176: worker process 7264 exited with code 0
+2016/08/25 21:01:57 [notice] 3160#3176: worker process 7264 exited with code 0
+2016/08/25 21:02:22 [info] 3504#2728: *34 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:81
+2016/08/25 21:05:07 [notice] 7592#7588: signal process started
+2016/08/25 21:05:07 [notice] 3160#3176: reconfiguring
+2016/08/25 21:05:07 [notice] 3160#3176: reconfiguring
+2016/08/25 21:05:07 [notice] 3160#3176: using the "select" event method
+2016/08/25 21:05:07 [notice] 3160#3176: using the "select" event method
+2016/08/25 21:05:07 [notice] 3160#3176: start worker processes
+2016/08/25 21:05:07 [notice] 3160#3176: start worker processes
+2016/08/25 21:05:07 [notice] 3160#3176: start worker process 7600
+2016/08/25 21:05:07 [notice] 3160#3176: start worker process 7600
+2016/08/25 21:05:07 [notice] 7600#7604: nginx/1.11.3
+2016/08/25 21:05:07 [notice] 7600#7604: nginx/1.11.3
+2016/08/25 21:05:07 [info] 7600#7604: OS: 260110 build:7601, "Service Pack 1", suite:100, type:1
+2016/08/25 21:05:07 [notice] 3504#4444: gracefully shutting down
+2016/08/25 21:05:07 [notice] 7600#7604: create thread 7628
+2016/08/25 21:05:07 [notice] 3504#4444: gracefully shutting down
+2016/08/25 21:05:07 [notice] 7600#7604: create thread 7628
+2016/08/25 21:05:07 [notice] 3504#5840: exiting
+2016/08/25 21:05:07 [notice] 3504#5840: exiting
+2016/08/25 21:05:07 [notice] 7600#7604: create thread 7668
+2016/08/25 21:05:07 [notice] 7600#7604: create thread 7668
+2016/08/25 21:05:07 [notice] 7600#7604: create thread 6676
+2016/08/25 21:05:07 [notice] 7600#7604: create thread 6676
+2016/08/25 21:05:07 [notice] 3504#2728: exiting
+2016/08/25 21:05:07 [notice] 3504#2728: exiting
+2016/08/25 21:05:07 [notice] 3504#4444: exit
+2016/08/25 21:05:07 [notice] 3504#4444: exit
+2016/08/25 21:05:07 [notice] 3160#3176: worker process 3504 exited with code 0
+2016/08/25 21:05:07 [notice] 3160#3176: worker process 3504 exited with code 0
+2016/08/25 21:05:11 [notice] 7308#7744: signal process started
+2016/08/25 21:05:11 [notice] 3160#3176: reconfiguring
+2016/08/25 21:05:11 [notice] 3160#3176: reconfiguring
+2016/08/25 21:05:11 [notice] 3160#3176: using the "select" event method
+2016/08/25 21:05:11 [notice] 3160#3176: using the "select" event method
+2016/08/25 21:05:11 [notice] 3160#3176: start worker processes
+2016/08/25 21:05:11 [notice] 3160#3176: start worker processes
+2016/08/25 21:05:11 [notice] 3160#3176: start worker process 5100
+2016/08/25 21:05:11 [notice] 3160#3176: start worker process 5100
+2016/08/25 21:05:11 [notice] 5100#7824: nginx/1.11.3
+2016/08/25 21:05:11 [notice] 5100#7824: nginx/1.11.3
+2016/08/25 21:05:11 [info] 5100#7824: OS: 260110 build:7601, "Service Pack 1", suite:100, type:1
+2016/08/25 21:05:11 [notice] 5100#7824: create thread 4372
+2016/08/25 21:05:11 [notice] 5100#7824: create thread 4372
+2016/08/25 21:05:11 [notice] 7600#7604: gracefully shutting down
+2016/08/25 21:05:11 [notice] 7600#7604: gracefully shutting down
+2016/08/25 21:05:11 [notice] 7600#7668: exiting
+2016/08/25 21:05:11 [notice] 7600#7668: exiting
+2016/08/25 21:05:11 [notice] 5100#7824: create thread 6104
+2016/08/25 21:05:11 [notice] 5100#7824: create thread 6104
+2016/08/25 21:05:11 [notice] 5100#7824: create thread 7724
+2016/08/25 21:05:11 [notice] 5100#7824: create thread 7724
+2016/08/25 21:05:11 [notice] 7600#7628: exiting
+2016/08/25 21:05:11 [notice] 7600#7628: exiting
+2016/08/25 21:05:11 [notice] 7600#7604: exit
+2016/08/25 21:05:11 [notice] 7600#7604: exit
+2016/08/25 21:05:11 [notice] 3160#3176: worker process 7600 exited with code 0
+2016/08/25 21:05:11 [notice] 3160#3176: worker process 7600 exited with code 0
+2016/08/25 21:05:40 [info] 5100#4372: *35 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:81
+2016/08/25 21:05:40 [info] 5100#4372: *36 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:81
+2016/08/25 21:06:31 [info] 5100#4372: *38 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:81
+2016/08/25 21:06:58 [info] 5100#4372: *43 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:81
+2016/08/25 21:08:28 [notice] 5260#4692: signal process started
+2016/08/25 21:08:28 [notice] 3160#3176: reconfiguring
+2016/08/25 21:08:28 [notice] 3160#3176: reconfiguring
+2016/08/25 21:08:28 [notice] 3160#3176: using the "select" event method
+2016/08/25 21:08:28 [notice] 3160#3176: using the "select" event method
+2016/08/25 21:08:28 [notice] 3160#3176: start worker processes
+2016/08/25 21:08:28 [notice] 3160#3176: start worker processes
+2016/08/25 21:08:28 [notice] 3160#3176: start worker process 7744
+2016/08/25 21:08:28 [notice] 3160#3176: start worker process 7744
+2016/08/25 21:08:28 [notice] 7744#7676: nginx/1.11.3
+2016/08/25 21:08:28 [notice] 7744#7676: nginx/1.11.3
+2016/08/25 21:08:28 [info] 7744#7676: OS: 260110 build:7601, "Service Pack 1", suite:100, type:1
+2016/08/25 21:08:28 [notice] 5100#7824: gracefully shutting down
+2016/08/25 21:08:28 [notice] 5100#7824: gracefully shutting down
+2016/08/25 21:08:28 [notice] 5100#6104: exiting
+2016/08/25 21:08:28 [notice] 5100#6104: exiting
+2016/08/25 21:08:28 [notice] 7744#7676: create thread 7592
+2016/08/25 21:08:28 [notice] 7744#7676: create thread 7592
+2016/08/25 21:08:28 [notice] 7744#7676: create thread 6580
+2016/08/25 21:08:28 [notice] 7744#7676: create thread 6580
+2016/08/25 21:08:28 [notice] 7744#7676: create thread 7588
+2016/08/25 21:08:28 [notice] 7744#7676: create thread 7588
+2016/08/25 21:08:29 [notice] 5100#4372: exiting
+2016/08/25 21:08:29 [notice] 5100#4372: exiting
+2016/08/25 21:08:29 [notice] 5100#7824: exit
+2016/08/25 21:08:29 [notice] 5100#7824: exit
+2016/08/25 21:08:29 [notice] 3160#3176: worker process 5100 exited with code 0
+2016/08/25 21:08:29 [notice] 3160#3176: worker process 5100 exited with code 0
+2016/08/25 21:08:58 [info] 7744#7592: *47 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:81
+2016/08/25 21:08:58 [info] 7744#7592: *49 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:81
+2016/08/25 21:08:58 [info] 7744#7592: *48 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:81
+2016/08/25 21:20:58 [notice] 7196#7972: signal process started
+2016/08/25 21:20:58 [notice] 3160#3176: reconfiguring
+2016/08/25 21:20:58 [notice] 3160#3176: reconfiguring
+2016/08/25 21:20:58 [notice] 3160#3176: using the "select" event method
+2016/08/25 21:20:58 [notice] 3160#3176: using the "select" event method
+2016/08/25 21:20:58 [notice] 3160#3176: start worker processes
+2016/08/25 21:20:58 [notice] 3160#3176: start worker processes
+2016/08/25 21:20:58 [notice] 3160#3176: start worker process 7256
+2016/08/25 21:20:58 [notice] 3160#3176: start worker process 7256
+2016/08/25 21:20:58 [notice] 7256#6552: nginx/1.11.3
+2016/08/25 21:20:58 [notice] 7256#6552: nginx/1.11.3
+2016/08/25 21:20:58 [info] 7256#6552: OS: 260110 build:7601, "Service Pack 1", suite:100, type:1
+2016/08/25 21:20:58 [notice] 7744#7676: gracefully shutting down
+2016/08/25 21:20:58 [notice] 7744#7676: gracefully shutting down
+2016/08/25 21:20:58 [notice] 7744#6580: exiting
+2016/08/25 21:20:58 [notice] 7744#6580: exiting
+2016/08/25 21:20:58 [notice] 7256#6552: create thread 7948
+2016/08/25 21:20:58 [notice] 7256#6552: create thread 7948
+2016/08/25 21:20:58 [notice] 7256#6552: create thread 7768
+2016/08/25 21:20:58 [notice] 7256#6552: create thread 7768
+2016/08/25 21:20:58 [notice] 7256#6552: create thread 7624
+2016/08/25 21:20:58 [notice] 7256#6552: create thread 7624
+2016/08/25 21:20:58 [notice] 7744#7592: exiting
+2016/08/25 21:20:58 [notice] 7744#7592: exiting
+2016/08/25 21:20:58 [notice] 7744#7676: exit
+2016/08/25 21:20:58 [notice] 7744#7676: exit
+2016/08/25 21:20:58 [notice] 3160#3176: worker process 7744 exited with code 0
+2016/08/25 21:20:58 [notice] 3160#3176: worker process 7744 exited with code 0
