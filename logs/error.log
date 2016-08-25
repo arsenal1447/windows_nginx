@@ -467,3 +467,4 @@
 2016/08/25 21:34:07 [warn] 8920#8244: *99 an upstream response is buffered to a temporary file E:\Program Files\nginx/temp/fastcgi_temp/2/00/0000000002 while reading upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost:82"
 2016/08/25 21:34:17 [info] 8920#8244: *100 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:82
 2016/08/25 21:34:17 [info] 8920#8244: *98 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:83
+2016/08/25 21:34:27 [info] 8920#8244: *102 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:82
