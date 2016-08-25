@@ -420,3 +420,50 @@
 2016/08/25 21:20:58 [notice] 7744#7676: exit
 2016/08/25 21:20:58 [notice] 3160#3176: worker process 7744 exited with code 0
 2016/08/25 21:20:58 [notice] 3160#3176: worker process 7744 exited with code 0
+2016/08/25 21:28:58 [info] 7256#7948: *71 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:81
+2016/08/25 21:28:58 [info] 7256#7948: *73 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:81
+2016/08/25 21:28:58 [info] 7256#7948: *72 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:81
+2016/08/25 21:30:15 [notice] 4548#8388: signal process started
+2016/08/25 21:30:15 [notice] 3160#3176: reconfiguring
+2016/08/25 21:30:15 [notice] 3160#3176: reconfiguring
+2016/08/25 21:30:15 [notice] 3160#3176: using the "select" event method
+2016/08/25 21:30:15 [notice] 3160#3176: using the "select" event method
+2016/08/25 21:30:15 [notice] 3160#3176: start worker processes
+2016/08/25 21:30:15 [notice] 3160#3176: start worker processes
+2016/08/25 21:30:15 [notice] 3160#3176: start worker process 8920
+2016/08/25 21:30:15 [notice] 3160#3176: start worker process 8920
+2016/08/25 21:30:15 [notice] 8920#8216: nginx/1.11.3
+2016/08/25 21:30:15 [notice] 8920#8216: nginx/1.11.3
+2016/08/25 21:30:15 [info] 8920#8216: OS: 260110 build:7601, "Service Pack 1", suite:100, type:1
+2016/08/25 21:30:15 [notice] 7256#6552: gracefully shutting down
+2016/08/25 21:30:15 [notice] 8920#8216: create thread 8244
+2016/08/25 21:30:15 [notice] 7256#6552: gracefully shutting down
+2016/08/25 21:30:15 [notice] 8920#8216: create thread 8244
+2016/08/25 21:30:15 [notice] 8920#8216: create thread 8492
+2016/08/25 21:30:15 [notice] 8920#8216: create thread 8492
+2016/08/25 21:30:15 [notice] 7256#7768: exiting
+2016/08/25 21:30:15 [notice] 7256#7768: exiting
+2016/08/25 21:30:15 [notice] 8920#8216: create thread 8412
+2016/08/25 21:30:15 [notice] 8920#8216: create thread 8412
+2016/08/25 21:30:16 [notice] 7256#7948: exiting
+2016/08/25 21:30:16 [notice] 7256#7948: exiting
+2016/08/25 21:30:16 [notice] 7256#6552: exit
+2016/08/25 21:30:16 [notice] 7256#6552: exit
+2016/08/25 21:30:16 [notice] 3160#3176: worker process 7256 exited with code 0
+2016/08/25 21:30:16 [notice] 3160#3176: worker process 7256 exited with code 0
+2016/08/25 21:31:23 [info] 8920#8244: *85 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:83
+2016/08/25 21:31:23 [info] 8920#8244: *87 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:83
+2016/08/25 21:31:23 [info] 8920#8244: *86 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:83
+2016/08/25 21:33:39 [error] 8920#8244: *92 FastCGI sent in stderr: "PHP Warning:  phpinfo(): It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected the timezone 'UTC' for now, but please set date.timezone to select your timezone. in E:\work\index.php on line 3" while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "127.0.0.1:82"
+2016/08/25 21:33:39 [error] 8920#8244: *92 FastCGI sent in stderr: "PHP Warning:  phpinfo(): It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected the timezone 'UTC' for now, but please set date.timezone to select your timezone. in E:\work\index.php on line 3" while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "127.0.0.1:82"
+2016/08/25 21:33:39 [error] 8920#8244: *92 FastCGI sent in stderr: "PHP Warning:  phpinfo(): It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected the timezone 'UTC' for now, but please set date.timezone to select your timezone. in E:\work\index.php on line 3" while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "127.0.0.1:82"
+2016/08/25 21:33:39 [warn] 8920#8244: *92 an upstream response is buffered to a temporary file E:\Program Files\nginx/temp/fastcgi_temp/1/00/0000000001 while reading upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "127.0.0.1:82"
+2016/08/25 21:33:39 [warn] 8920#8244: *92 an upstream response is buffered to a temporary file E:\Program Files\nginx/temp/fastcgi_temp/1/00/0000000001 while reading upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "127.0.0.1:82"
+2016/08/25 21:33:57 [info] 8920#8244: *93 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:82
+2016/08/25 21:34:07 [error] 8920#8244: *99 FastCGI sent in stderr: "PHP Warning:  phpinfo(): It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected the timezone 'UTC' for now, but please set date.timezone to select your timezone. in E:\work\index.php on line 3" while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost:82"
+2016/08/25 21:34:07 [error] 8920#8244: *99 FastCGI sent in stderr: "PHP Warning:  phpinfo(): It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected the timezone 'UTC' for now, but please set date.timezone to select your timezone. in E:\work\index.php on line 3" while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost:82"
+2016/08/25 21:34:07 [error] 8920#8244: *99 FastCGI sent in stderr: "PHP Warning:  phpinfo(): It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected the timezone 'UTC' for now, but please set date.timezone to select your timezone. in E:\work\index.php on line 3" while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost:82"
+2016/08/25 21:34:07 [warn] 8920#8244: *99 an upstream response is buffered to a temporary file E:\Program Files\nginx/temp/fastcgi_temp/2/00/0000000002 while reading upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost:82"
+2016/08/25 21:34:07 [warn] 8920#8244: *99 an upstream response is buffered to a temporary file E:\Program Files\nginx/temp/fastcgi_temp/2/00/0000000002 while reading upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost:82"
+2016/08/25 21:34:17 [info] 8920#8244: *100 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:82
+2016/08/25 21:34:17 [info] 8920#8244: *98 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:83
